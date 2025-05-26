@@ -17,8 +17,8 @@ export default function Main() {
             handleClick={() => setActiveLanguage(lang.title)}
           />
         ))}
-        <div class="card">
-          <div class="card-body">
+        <div className="card">
+          <div className="card-body">
             <h2>{activeLanguage || "No language selected"}</h2>
             <p>
               {activeLanguage
